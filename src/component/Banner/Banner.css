@@ -1,0 +1,47 @@
+.banner-container{
+    width: 1228px;
+    background: linear-gradient(to right , #9d00ff, #FF990D) ;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    padding-top: 49px;
+    padding-bottom: 49px;
+}
+.banner-title{
+    color: #FFF;
+text-align: center;
+font-family: Outfit;
+font-size: 32.849px;
+font-style: normal;
+font-weight: 600;
+line-height: 147.1%; /* 48.321px */
+width: 544px;
+}
+.banner-description{
+    color: #FFF;
+text-align: center;
+font-family: Outfit;
+font-size: 21.117px;
+font-style: normal;
+font-weight: 300;
+line-height: 158.13%; /* 33.393px */
+width: 544px;
+}
+.link-text{
+    color:  #828282;
+font-family: Outfit;
+font-size: 21.225px;
+font-style: normal;
+font-weight: 300;
+line-height: 158.13%; /* 33.563px */
+vertical-align: middle;
+}
+a img{
+    vertical-align: middle;
+}
+.button-container{
+    display: flex;
+    column-gap: 20px;
+}

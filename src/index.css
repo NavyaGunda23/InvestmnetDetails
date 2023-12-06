@@ -1,13 +1,79 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+body {
+  font-family: "Outfit";
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+  padding: 0px;
+  margin:0px;
+}
+.Details-page-container{
+ background: linear-gradient(#1D1D1D);
+ background-image: 
+  linear-gradient(to bottom, 
+  #1D1D1D  10%, 
+  #2f2aad   20%, 
+  #828282  30%,
+  #1D1D1D   40%);
+    height: 2752px;
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 72px;
+
+}
+.mt-10{
+  margin-top: 10px;
+}
+.contact-container{
+  width: 827px;
+  padding: 20px 100px;
+  box-sizing: border-box;
+  border: 2px solid  #FF990D;
+  border-radius: 24px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.contact-container img{
+  width: 70.523px;
+  height: 70.523px;
+}
+.contact-info{
+  color:  #FF990D;
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 158.13%; /* 37.951px */
+}
+.contact-container a{
+  color:  #FF990D;
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: 166.1%;
+text-decoration-line: underline;
+}
+.contact-desc{
+  color: #FFF;
+text-align: center;
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: 166.1%; /* 39.864px */
 }

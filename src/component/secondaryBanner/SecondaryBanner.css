@@ -1,0 +1,92 @@
+.secondary-banner-container{
+    border-radius: 24px;
+    background: #333;
+    display: flex;
+    padding: 30px 68px;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+.banner-info p{
+    color: #FFF;
+text-align: center;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 158.13%; /* 50.602px */
+margin-bottom: 20px;
+}
+.banner-info h6{
+    color:  #F2F2F2;
+text-align: center;
+font-family: Outfit;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 166.1%; /* 31.559px */
+}
+.secondary-banner-container .banner-info:first-child{
+padding-right: 52px;
+padding-left: 0px !important;
+}
+.secondary-banner-container .banner-info:only-child {
+    padding-right: 52px !important;
+    padding-left: 52px !important;
+  }
+.secondary-banner-container .banner-info{
+    padding-right: 52px;
+    padding-left: 52px;
+    border-right: 1px solid #6a6a6a;
+}
+.secondary-banner-container .banner-info:last-child{
+    padding-left: 52px;
+    padding-right: 0px;
+    border-right: none;
+    }
+    .secondary-banner h6{
+        color: #FFF;
+font-family: Outfit;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 158.13%; /* 44.276px */
+text-transform: capitalize;
+text-align: center;
+margin-bottom: 16px;
+    }
+    .tag{
+padding: 12px 16px;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 158.13%; /* 37.951px */
+border-radius: 12px;
+margin-bottom: 8px;
+    display: inline-block;
+    }
+    .Completed{
+        background-color: rgba(4, 219, 96, 0.13);
+        color: #29D070;
+    }
+    .image-text span{
+        color: #FF990D;
+font-family: Outfit;
+font-size: 41.225px;
+font-style: normal;
+font-weight: 500;
+line-height: 158.13%; /* 65.189px */
+    }
+    .image-text{
+        display: flex;
+        flex-direction: column;
+
+    align-items: center;
+    }
+    .image-text img{
+        width:33px;
+        height: 28px;
+        border: 1px solid #FF990D;
+    padding: 10px;
+    border-radius: 100%;
+    }

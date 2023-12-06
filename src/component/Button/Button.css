@@ -1,0 +1,23 @@
+.primary-button{
+    border-radius: 12px;
+position: relative;
+border-image: linear-gradient(#9d00ff, #FF990D) 1;
+border-width: 1px;
+border-style: solid;
+padding: 12px 30px;
+background: none;
+display: flex;
+align-items: center;
+}
+.primary-button img{
+
+    padding-right: 10px;
+}
+
+.primary-button span{
+    color: #FF990D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

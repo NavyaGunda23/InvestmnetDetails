@@ -1,0 +1,23 @@
+.secondary-button{
+    border-radius: 12px;
+position: relative;
+border-color:white;
+border-width: 1px;
+border-style: solid;
+padding: 12px 30px;
+background: none;
+display: flex;
+align-items: center;
+
+color: #FFf;
+}
+.secondary-button span{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.secondary-button:hover{
+    background: white;
+    color: black;
+}
