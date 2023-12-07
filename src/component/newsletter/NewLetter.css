@@ -1,0 +1,49 @@
+
+.newsletter{
+    border-radius: 13.646px;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  width: 1310px;
+  align-items: center;
+  column-gap: 100px;
+  }
+  .newsletter-desc{
+    padding: 68px;
+    display: flex;
+      flex-direction: column;
+  }
+  .newsletter h6{
+    color: #FFF;
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  .newsletter span{
+    color: #E0E0E0;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 33px */
+  margin-top: 13px;
+  }
+  .input-warpper{
+    border-radius: 13.646px;
+  background: #FFF;
+  display: flex;
+  padding: 7.96px 7.96px 7.96px 27.292px;
+  flex-direction: row;
+  margin-top: 45px;
+  }
+  .input-warpper input{
+    width: 350px;
+    border: none;
+    color: #5A5A5A;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 30px */
+  }
